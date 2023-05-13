@@ -5,12 +5,12 @@ Objectives - Create an application which can handle multiple domain based routin
 
 flowchart LR
 
-A(www.domain-a.com) --> |Request| D{Application}
-B(www.domain-b.in) --> |Request| D{Application}
-C(www.domain-c.org) --> |Request| D{Application}
+A(www.domain-a.com) --> |Request| D{React Application}
+B(www.domain-b.in) --> |Request| D{React Application}
+C(www.domain-c.org) --> |Request| D{React Application}
 
-D{Application} --> E[Serve content A for domain-a]
-D{Application} --> F[Serve content B for domain-b]
-D{Application} --> G[Serve content C for domain-c]
+D{React Application} --> E[Serve content A for domain-a]
+D{React Application} --> F[Serve content B for domain-b]
+D{React Application} --> G[Serve content C for domain-c]
 
 ```
